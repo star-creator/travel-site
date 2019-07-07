@@ -65,6 +65,15 @@
                 transition: opacity .3s ease-out;
             }
 
+            &.is-current-link {
+                color: #fabb69;
+
+                &::after {
+                    opacity: 1;
+                    background: #fabb69;
+                }
+            }
+
             &:hover,
             &:focus {
                 &::after {
